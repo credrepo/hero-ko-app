@@ -1,0 +1,171 @@
+2026-06-10 11:56:05,244 : INFO : __init__ : click1 : 25 --> Element operation completed successfully
+2026-06-10 11:56:05,245 : INFO : __init__ : click1 : 28 --> Element operation completed unsuccessfully
+2026-06-10 11:56:42,206 : INFO : __init__ : click1 : 25 --> Element operation completed successfully
+2026-06-10 11:57:52,095 : INFO : __init__ : click1 : 25 --> Element operation completed successfully
+2026-06-10 15:05:45,812 : INFO : __init__ : click1 : 30 --> Element operation completed successfully
+2026-06-10 15:05:56,106 : INFO : __init__ : click2 : 45 --> Element operation completed unsuccessfully
+2026-06-10 15:07:48,822 : INFO : __init__ : click1 : 30 --> Element operation completed successfully
+2026-06-10 15:07:59,111 : INFO : __init__ : click2 : 45 --> Element operation completed unsuccessfully
+2026-06-10 15:10:48,595 : INFO : __init__ : click1 : 30 --> Element operation completed successfully
+2026-06-10 15:10:58,915 : INFO : __init__ : click2 : 45 --> Element operation completed unsuccessfully
+2026-06-10 15:12:48,698 : INFO : __init__ : click1 : 30 --> Element operation completed successfully
+2026-06-10 15:12:58,971 : ERROR : __init__ : click2 : 45 --> Element operation failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff664503435+14875]
+	chromedriver!GetHandleVerifier [0x7ff664503490+148d0]
+	chromedriver!(No symbol) [0x7ff66405778d]
+	chromedriver!(No symbol) [0x7ff6640b195d]
+	chromedriver!(No symbol) [0x7ff6640b1c5c]
+	chromedriver!(No symbol) [0x7ff664101e37]
+	chromedriver!(No symbol) [0x7ff6640fe9fc]
+	chromedriver!(No symbol) [0x7ff6640a3eb0]
+	chromedriver!(No symbol) [0x7ff6640a4e23]
+	chromedriver!GetHandleVerifier [0x7ff664ae6c91+5f80d1]
+	chromedriver!GetHandleVerifier [0x7ff664ae101b+5f245b]
+	chromedriver!GetHandleVerifier [0x7ff664b06305+617745]
+	chromedriver!GetHandleVerifier [0x7ff6645203ee+3182e]
+	chromedriver!GetHandleVerifier [0x7ff664528b0c+39f4c]
+	chromedriver!GetHandleVerifier [0x7ff66450cb04+1df44]
+	chromedriver!GetHandleVerifier [0x7ff66450cc94+1e0d4]
+	chromedriver!GetHandleVerifier [0x7ff6644f0997+1dd7]
+	KERNEL32!BaseThreadInitThunk [0x7ffd7c36e957+17]
+	ntdll!RtlUserThreadStart [0x7ffd7cba7c1c+2c]
+
+2026-06-10 15:17:18,077 : INFO : __init__ : click1 : 31 --> Element operation completed successfully
+2026-06-10 15:17:28,360 : ERROR : __init__ : click2 : 46 --> Element operation failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff664503435+14875]
+	chromedriver!GetHandleVerifier [0x7ff664503490+148d0]
+	chromedriver!(No symbol) [0x7ff66405778d]
+	chromedriver!(No symbol) [0x7ff6640b195d]
+	chromedriver!(No symbol) [0x7ff6640b1c5c]
+	chromedriver!(No symbol) [0x7ff664101e37]
+	chromedriver!(No symbol) [0x7ff6640fe9fc]
+	chromedriver!(No symbol) [0x7ff6640a3eb0]
+	chromedriver!(No symbol) [0x7ff6640a4e23]
+	chromedriver!GetHandleVerifier [0x7ff664ae6c91+5f80d1]
+	chromedriver!GetHandleVerifier [0x7ff664ae101b+5f245b]
+	chromedriver!GetHandleVerifier [0x7ff664b06305+617745]
+	chromedriver!GetHandleVerifier [0x7ff6645203ee+3182e]
+	chromedriver!GetHandleVerifier [0x7ff664528b0c+39f4c]
+	chromedriver!GetHandleVerifier [0x7ff66450cb04+1df44]
+	chromedriver!GetHandleVerifier [0x7ff66450cc94+1e0d4]
+	chromedriver!GetHandleVerifier [0x7ff6644f0997+1dd7]
+	KERNEL32!BaseThreadInitThunk [0x7ffd7c36e957+17]
+	ntdll!RtlUserThreadStart [0x7ffd7cba7c1c+2c]
+
+2026-06-10 15:18:12,136 : INFO : __init__ : click1 : 34 --> Element operation completed successfully
+2026-06-10 15:18:32,637 : ERROR : __init__ : click2 : 49 --> Element operation failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff664503435+14875]
+	chromedriver!GetHandleVerifier [0x7ff664503490+148d0]
+	chromedriver!(No symbol) [0x7ff66405778d]
+	chromedriver!(No symbol) [0x7ff6640b195d]
+	chromedriver!(No symbol) [0x7ff6640b1c5c]
+	chromedriver!(No symbol) [0x7ff664101e37]
+	chromedriver!(No symbol) [0x7ff6640fe9fc]
+	chromedriver!(No symbol) [0x7ff6640a3eb0]
+	chromedriver!(No symbol) [0x7ff6640a4e23]
+	chromedriver!GetHandleVerifier [0x7ff664ae6c91+5f80d1]
+	chromedriver!GetHandleVerifier [0x7ff664ae101b+5f245b]
+	chromedriver!GetHandleVerifier [0x7ff664b06305+617745]
+	chromedriver!GetHandleVerifier [0x7ff6645203ee+3182e]
+	chromedriver!GetHandleVerifier [0x7ff664528b0c+39f4c]
+	chromedriver!GetHandleVerifier [0x7ff66450cb04+1df44]
+	chromedriver!GetHandleVerifier [0x7ff66450cc94+1e0d4]
+	chromedriver!GetHandleVerifier [0x7ff6644f0997+1dd7]
+	KERNEL32!BaseThreadInitThunk [0x7ffd7c36e957+17]
+	ntdll!RtlUserThreadStart [0x7ffd7cba7c1c+2c]
+
+2026-06-10 15:21:16,482 : INFO : __init__ : click1 : 30 --> Element operation completed successfully
+2026-06-10 15:21:37,018 : ERROR : __init__ : click2 : 47 --> Checkbox operation failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff664503435+14875]
+	chromedriver!GetHandleVerifier [0x7ff664503490+148d0]
+	chromedriver!(No symbol) [0x7ff66405778d]
+	chromedriver!(No symbol) [0x7ff6640b195d]
+	chromedriver!(No symbol) [0x7ff6640b1c5c]
+	chromedriver!(No symbol) [0x7ff664101e37]
+	chromedriver!(No symbol) [0x7ff6640fe9fc]
+	chromedriver!(No symbol) [0x7ff6640a3eb0]
+	chromedriver!(No symbol) [0x7ff6640a4e23]
+	chromedriver!GetHandleVerifier [0x7ff664ae6c91+5f80d1]
+	chromedriver!GetHandleVerifier [0x7ff664ae101b+5f245b]
+	chromedriver!GetHandleVerifier [0x7ff664b06305+617745]
+	chromedriver!GetHandleVerifier [0x7ff6645203ee+3182e]
+	chromedriver!GetHandleVerifier [0x7ff664528b0c+39f4c]
+	chromedriver!GetHandleVerifier [0x7ff66450cb04+1df44]
+	chromedriver!GetHandleVerifier [0x7ff66450cc94+1e0d4]
+	chromedriver!GetHandleVerifier [0x7ff6644f0997+1dd7]
+	KERNEL32!BaseThreadInitThunk [0x7ffd7c36e957+17]
+	ntdll!RtlUserThreadStart [0x7ffd7cba7c1c+2c]
+
+2026-06-10 15:28:25,787 : INFO : __init__ : click1 : 30 --> Element operation completed successfully
+2026-06-10 15:28:45,850 : ERROR : __init__ : click2 : 47 --> Checkbox operation failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff664503435+14875]
+	chromedriver!GetHandleVerifier [0x7ff664503490+148d0]
+	chromedriver!(No symbol) [0x7ff66405778d]
+	chromedriver!(No symbol) [0x7ff6640b195d]
+	chromedriver!(No symbol) [0x7ff6640b1c5c]
+	chromedriver!(No symbol) [0x7ff664101e37]
+	chromedriver!(No symbol) [0x7ff6640fe9fc]
+	chromedriver!(No symbol) [0x7ff6640a3eb0]
+	chromedriver!(No symbol) [0x7ff6640a4e23]
+	chromedriver!GetHandleVerifier [0x7ff664ae6c91+5f80d1]
+	chromedriver!GetHandleVerifier [0x7ff664ae101b+5f245b]
+	chromedriver!GetHandleVerifier [0x7ff664b06305+617745]
+	chromedriver!GetHandleVerifier [0x7ff6645203ee+3182e]
+	chromedriver!GetHandleVerifier [0x7ff664528b0c+39f4c]
+	chromedriver!GetHandleVerifier [0x7ff66450cb04+1df44]
+	chromedriver!GetHandleVerifier [0x7ff66450cc94+1e0d4]
+	chromedriver!GetHandleVerifier [0x7ff6644f0997+1dd7]
+	KERNEL32!BaseThreadInitThunk [0x7ffd7c36e957+17]
+	ntdll!RtlUserThreadStart [0x7ffd7cba7c1c+2c]
+
+2026-06-10 15:33:14,397 : INFO : __init__ : click1 : 30 --> Element operation completed successfully
+2026-06-10 15:33:34,882 : ERROR : __init__ : click2 : 47 --> Checkbox operation failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff664503435+14875]
+	chromedriver!GetHandleVerifier [0x7ff664503490+148d0]
+	chromedriver!(No symbol) [0x7ff66405778d]
+	chromedriver!(No symbol) [0x7ff6640b195d]
+	chromedriver!(No symbol) [0x7ff6640b1c5c]
+	chromedriver!(No symbol) [0x7ff664101e37]
+	chromedriver!(No symbol) [0x7ff6640fe9fc]
+	chromedriver!(No symbol) [0x7ff6640a3eb0]
+	chromedriver!(No symbol) [0x7ff6640a4e23]
+	chromedriver!GetHandleVerifier [0x7ff664ae6c91+5f80d1]
+	chromedriver!GetHandleVerifier [0x7ff664ae101b+5f245b]
+	chromedriver!GetHandleVerifier [0x7ff664b06305+617745]
+	chromedriver!GetHandleVerifier [0x7ff6645203ee+3182e]
+	chromedriver!GetHandleVerifier [0x7ff664528b0c+39f4c]
+	chromedriver!GetHandleVerifier [0x7ff66450cb04+1df44]
+	chromedriver!GetHandleVerifier [0x7ff66450cc94+1e0d4]
+	chromedriver!GetHandleVerifier [0x7ff6644f0997+1dd7]
+	KERNEL32!BaseThreadInitThunk [0x7ffd7c36e957+17]
+	ntdll!RtlUserThreadStart [0x7ffd7cba7c1c+2c]
+
+2026-06-12 11:59:51,772 : INFO : __init__ : click1 : 30 --> Element operation completed successfully
+2026-06-12 12:00:12,247 : ERROR : __init__ : click2 : 47 --> Checkbox operation failed: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff75e6bfd95+15395]
+	chromedriver!GetHandleVerifier [0x7ff75e6bfdf0+153f0]
+	chromedriver!(No symbol) [0x7ff75e1f78fd]
+	chromedriver!(No symbol) [0x7ff75e251479]
+	chromedriver!(No symbol) [0x7ff75e25177c]
+	chromedriver!(No symbol) [0x7ff75e2a1ef7]
+	chromedriver!(No symbol) [0x7ff75e29eaeb]
+	chromedriver!(No symbol) [0x7ff75e243a58]
+	chromedriver!(No symbol) [0x7ff75e244953]
+	chromedriver!GetHandleVerifier [0x7ff75ec85511+5dab11]
+	chromedriver!GetHandleVerifier [0x7ff75ec7f8fb+5d4efb]
+	chromedriver!GetHandleVerifier [0x7ff75eca3205+5f8805]
+	chromedriver!GetHandleVerifier [0x7ff75e6dcc6e+3226e]
+	chromedriver!GetHandleVerifier [0x7ff75e6e562c+3ac2c]
+	chromedriver!GetHandleVerifier [0x7ff75e6c9984+1ef84]
+	chromedriver!GetHandleVerifier [0x7ff75e6c9b14+1f114]
+	chromedriver!GetHandleVerifier [0x7ff75e6aca77+2077]
+	KERNEL32!BaseThreadInitThunk [0x7ffd7c36e957+17]
+	ntdll!RtlUserThreadStart [0x7ffd7cba7c1c+2c]
+
