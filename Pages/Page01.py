@@ -20,10 +20,6 @@ class Page01:
         self.driver = driver
         self.wait = WebDriverWait(driver, 10)
 
-    def verify_page_title(self):
-        assert self.driver.title == "demosite", f"Actual title: {self.driver.title}"
-        print("Title matched")
-
     def element_page(self):
         self.wait.until(EC.element_to_be_clickable(self.ele_btn_clk)).click()
         self.wait.until(EC.element_to_be_clickable(self.btn_click)).click()
@@ -49,4 +45,5 @@ class Page01:
         self.driver.find_element(*self.per_Add).send_keys("malai Pura")
 
     def click_button_submit(self):
-        self.driver.find_element(By.ID, "submit").click()
+        button = self.driver.find_element(By.ID, "submit")
+        self.driver.execute_script("arguments[0].click();", button)

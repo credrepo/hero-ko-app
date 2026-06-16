@@ -25,6 +25,9 @@ def setup(request):
 
     driver.maximize_window()
     driver.get(ReadConfig().get_application_url())
+    expected_title = "demosite"
+    actual_title = driver.title
+    assert actual_title == expected_title
     request.cls.driver = driver
     yield driver
     driver.quit()
