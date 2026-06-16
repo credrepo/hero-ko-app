@@ -5,31 +5,37 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 class Page01:
-    ele_btn_clk = (By.XPATH,"//h5[normalize-space()='Elements']")
-    btn_click = (By.XPATH,"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/div[1]/div[1]")
+    ele_btn_clk = (By.XPATH, "//h5[normalize-space()='Elements']")
+    btn_click = (By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/span[1]/div[1]/div[1]")
     text_button = (By.XPATH, "//span[normalize-space()='Text Box']")
-    full_name = (By.ID,"userName")
+    full_name = (By.ID, "userName")
     email = (By.ID, "userEmail")
     address = (By.ID, "currentAddress")
     per_Add = (By.ID, "permanentAddress")
-
-
-
 
     def __init__(self, driver):
         self.driver = driver
         self.wait = WebDriverWait(driver, 10)
 
     def element_page(self):
-        self.wait.until(EC.element_to_be_clickable(self.ele_btn_clk)).click()
-        self.wait.until(EC.element_to_be_clickable(self.btn_click)).click()
+        element = self.wait.until(EC.presence_of_element_located(self.ele_btn_clk))
+        self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});", element)
+        time.sleep(0.5)
+        self.driver.execute_script("arguments[0].click();", element)
 
+        element2 = self.wait.until(EC.presence_of_element_located(self.btn_click))
+        self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});", element2)
+        time.sleep(0.5)
+        self.driver.execute_script("arguments[0].click();", element2)
 
     def text_box_button(self):
-        self.wait.until(EC.element_to_be_clickable(self.text_button)).click()
-        element = self.driver.find_element(By.XPATH, "//h1[text()='Text Box']")
-        element.is_displayed()
-        print(element.text)
+        element = self.wait.until(EC.presence_of_element_located(self.text_button))
+        self.driver.execute_script("arguments[0].scrollIntoView({block:'center'});", element)
+        time.sleep(0.5)
+        self.driver.execute_script("arguments[0].click();", element)
+
+        heading = self.driver.find_element(By.XPATH, "//h1[text()='Text Box']")
+        print(heading.text)
         time.sleep(3)
 
     def enter_full_name(self):
