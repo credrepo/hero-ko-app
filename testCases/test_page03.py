@@ -1,7 +1,7 @@
 import pytest
 from Pages.Page03 import Page03
 
-@pytest.mark.skip
+
 @pytest.mark.usefixtures("setup")
 class Test_Pagethree:
 
